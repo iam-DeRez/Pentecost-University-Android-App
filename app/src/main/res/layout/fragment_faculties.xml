@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/satoshi_black"
+            android:text="Faculties"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.095"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.05"/>
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/satoshi_medium"
+            android:text="Newly added faculty."
+            android:textColor="#656565"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.122" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.146"
+            app:srcCompat="@drawable/law" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Faculty of Law"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.201"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.285" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/satoshi_black"
+            android:text="Other Faculties 🔥"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView33"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.151"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8"
+            app:layout_constraintVertical_bias="0.714" />
+
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="352dp"
+            android:layout_height="29dp"
+            android:layout_marginBottom="28dp"
+            android:fontFamily="@font/satoshi_medium"
+            android:text="Checkout available programes in each department."
+            android:textColor="#656565"
+            android:textSize="14.5sp"
+            app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.559"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.353"
+            app:srcCompat="@drawable/line" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="349dp"
+            android:layout_height="107dp"
+            android:layout_marginBottom="30dp"
+            android:background="@color/white"
+
+            app:layout_constraintBottom_toTopOf="@+id/relativeLayout6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView33">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="2dp"
+                android:fontFamily="@font/satoshi_bold"
+                android:padding="5dp"
+                android:text="Health and Allied Science"
+                android:textColor="#1B1B1B"
+                android:textSize="15.5sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="235dp"
+                android:layout_height="77dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/satoshi_regular"
+                android:padding="10dp"
+                android:text="Integrate concepts from the Arts and Sciences which helps in managing complex nursing care situations."
+                android:textColor="#838383"
+                android:textSize="12.5sp" />
+
+            <ImageView
+                android:id="@+id/it"
+                android:layout_width="107dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/hs" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout5"
+            android:layout_width="349dp"
+            android:layout_height="107dp"
+            android:layout_marginBottom="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.435"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout4">
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="0dp"
+                android:fontFamily="@font/satoshi_bold"
+                android:padding="5dp"
+                android:text="Theology and Leadership"
+                android:textColor="#1B1B1B"
+                android:textSize="15.5sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="229dp"
+                android:layout_height="72dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/satoshi_regular"
+                android:padding="10dp"
+                android:text="This faculty is tailored for people interested in studying theology and church administration."
+                android:textColor="#838383"
+                android:textSize="12.5sp" />
+
+            <ImageView
+                android:id="@+id/it35"
+                android:layout_width="107dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/tl" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout6"
+            android:layout_width="349dp"
+            android:layout_height="107dp"
+            app:layout_constraintBottom_toTopOf="@+id/relativeLayout4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.532"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+            app:layout_constraintVertical_bias="0.492">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/satoshi_bold"
+                android:padding="5dp"
+                android:text="Engineering and Computing"
+                android:textColor="#1B1B1B"
+                android:textSize="15.5sp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="235dp"
+                android:layout_height="77dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/satoshi_regular"
+                android:padding="10dp"
+                android:text="If you are interested in exploring and applying engineering and technology, you are at right place."
+                android:textColor="#838383"
+                android:textSize="12.5sp" />
+
+            <ImageView
+                android:id="@+id/it3"
+                android:layout_width="107dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/it" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout4"
+            android:layout_width="349dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintBottom_toTopOf="@+id/relativeLayout5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout6">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="228dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="2dp"
+                android:fontFamily="@font/satoshi_bold"
+                android:padding="5dp"
+                android:text="Business Administration"
+                android:textColor="#1B1B1B"
+                android:textSize="15.5sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="234dp"
+                android:layout_height="73dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="@font/satoshi_regular"
+                android:padding="10dp"
+                android:text="This faculty equips students with a high quality, integrated business education in a friendly environment."
+                android:textColor="#838383"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/it34"
+                android:layout_width="107dp"
+                android:layout_height="107dp"
+                app:srcCompat="@drawable/ba" />
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+

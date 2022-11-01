@@ -25,8 +25,7 @@ public class contact extends AppCompatActivity {
         me.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(this, onboarding3.class);
-                startActivity(intent);
+
 
             }
         });

@@ -13,6 +13,7 @@
         <entry key="app/src/main/res/layout-land/fragment_profile.xml" value="0.5552083333333333" />
         <entry key="app/src/main/res/layout/activity_contact.xml" value="0.22972972972972974" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_login1.xml" value="0.22972972972972974" />
         <entry key="app/src/main/res/layout/activity_main_screen.xml" value="0.17223910840932116" />
         <entry key="app/src/main/res/layout/activity_onboarding1.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_onboarding2.xml" value="0.317481884057971" />
@@ -21,7 +22,7 @@
         <entry key="app/src/main/res/layout/activity_t.xml" value="0.31929347826086957" />
         <entry key="app/src/main/res/layout/fragment_faculties.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.22" />
         <entry key="app/src/main/res/layout/fragment_register.xml" value="0.25" />
         <entry key="app/src/main/res/layout/home_activity.xml" value="0.22644927536231885" />

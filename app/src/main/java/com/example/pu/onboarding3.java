@@ -22,13 +22,13 @@ public class onboarding3 extends AppCompatActivity {
     public void loginS(View view) {
         Intent loginS = new Intent(this,login.class);
         startActivity (loginS);
-        finish();
+
     }
 
     public void signupS(View view) {
         Intent signupS = new Intent(this,signup.class);
         startActivity (signupS);
-        finish();
+
     }
 
 

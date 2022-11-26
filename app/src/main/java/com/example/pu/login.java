@@ -1,11 +1,8 @@
 package com.example.pu;
 
-import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -15,7 +12,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
-
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
@@ -34,43 +30,15 @@ public class login extends AppCompatActivity {
     private android.app.ProgressDialog ProgressDialog;
     private FirebaseAuth fireAuth;
     private ImageView googlebtn;
-    GoogleSignInOptions gso;
-    GoogleSignInClient gsc;
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_login1);
 
 
-
-        //Creating Google SignIn method using google Image
-        googlebtn = findViewById(R.id.googleButton);
-
-        gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestEmail().build();
-        gsc = GoogleSignIn.getClient(this,gso);
-
-       GoogleSignInAccount acct = GoogleSignIn.getLastSignedInAccount(this);
-        if (acct != null) {
-            navigateToSecondActivity();
-        }
-
-        googlebtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Login();
-            }
-        });
-
-
-
-        //getting variables IDs for Email and Password
-        fireAuth = FirebaseAuth.getInstance();
-        EmailSI = findViewById(R.id.login_emailAddress_box);
-        PasswordSI = findViewById(R.id.login_userPassword_box);
-        SignInBtn = findViewById(R.id.loginButton);
-        ProgressDialog = new ProgressDialog(this);
 
         //OnClick Function
         SignInBtn.setOnClickListener(new View.OnClickListener() {
@@ -83,12 +51,6 @@ public class login extends AppCompatActivity {
     }
 
 
-    //Function for Google Login
-    void Login(){
-        Intent signInIntent = gsc.getSignInIntent();
-        startActivityForResult(signInIntent, 1000);
-
-    }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
